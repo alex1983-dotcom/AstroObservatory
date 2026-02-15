@@ -1,0 +1,7 @@
+{
+    "python.defaultInterpreterPath": "${workspaceFolder}\\astro-venv\\Scripts\\python.exe",
+    "python.terminal.activateEnvironment": true,
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportAttributeAccessIssue": "none"
+    }
+}

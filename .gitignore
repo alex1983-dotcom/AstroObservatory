@@ -1,0 +1,74 @@
+# Игнорировать папку конфигурации PyCharm
+.idea/
+
+.ipynb_checkpoints/
+
+# Игнорировать файлы миграций
+*/migrations/*.pyc
+
+# Игнорировать файлы кэша
+__pycache__/
+*.py[cod]
+
+*.egg-info/
+
+
+
+# SQLite database
+db.sqlite3
+db.sqlite3-journal
+
+# Исключить файлы конфигурации с паролями
+config/settings_local.py
+
+# Игнорировать виртуальные среды
+env/
+venv/
+.env/
+.venv/
+astro-venv/
+.obsidian/
+
+# Логи
+*.log
+
+# Временные файлы
+*.tmp
+*.bak
+
+# Django configuration
+*.env
+.env
+.env.*
+
+# Сборки и зависимости
+build/
+dist/
+
+# Результаты тестов и покрытия
+.coverage
+htmlcov/
+
+checkpoint.ipynb
+
+# JupyterLab workspace state
+.jupyter/desktop-workspaces/
+
+
+# 📁 Jupyter Book: выходные файлы
+_build/
+.jupyter_cache/
+
+
+# 📁 IDE и системные
+*.DS_Store
+*.swp
+*.swo
+Thumbs.db
+
+# 📁 Windows
+ehthumbs.db
+Desktop.ini
+
+# media
+Obs_AstroObservatory/
